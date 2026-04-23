@@ -5,7 +5,6 @@ metadata:
   namespace: sj-infra
   annotations:
     kubernetes.io/ingress.class: nginx
-    # 필요한 경우 대용량 데이터를 위해 타임아웃 설정을 추가할 수 있습니다.
     nginx.ingress.kubernetes.io/proxy-connect-timeout: "60"
 spec:
   rules:
